@@ -9,3 +9,12 @@
 
 Action to fix eclipse warning: add `maven-war-plugin`
 
+
+## MP Config 
+
+	buildAndRun.bat
+	
+Example: different message
+
+	docker rm -f fhws22-booking && docker run -d -p 9080:9080 -p 9443:9443 -e message=hello --name fhws22-booking de.fhws/fhws22-booking
+	
