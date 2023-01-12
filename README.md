@@ -22,6 +22,32 @@ Example: different message
 
 Documentation
 
+## Metrics
+
+see MetricController
+
+OpenLiberty user/password see server.xml (duke/dukeduke)
+
+- https://openliberty.io/guides/microprofile-metrics.html#adding-the-annotations
+
+- https://localhost:9443/metrics/application
+
+- Prometheus with Grafana -> https://www.bogotobogo.com/DevOps/Docker/Docker_Prometheus_Grafana.php
+
+
+## HealthCheck
+
+
+- https://javaeeblog.wordpress.com/2019/01/27/alles-gesund-health-checking-mit-microprofile-health/
+- http://www.mastertheboss.com/soa-cloud/openshift/managing-microprofile-health-checks/
+
+- https://openliberty.io/guides/microprofile-health.html
+
+Result:
+
+- http://localhost:9080/health
+- http://localhost:9080/health/live
+- http://localhost:9080/health/ready
 
 OpenLiberty
 
