@@ -18,3 +18,14 @@ Example: different message
 
 	docker rm -f fhws22-booking && docker run -d -p 9080:9080 -p 9443:9443 -e message=hello --name fhws22-booking de.fhws/fhws22-booking
 	
+## MP OpenAPI
+
+Documentation
+
+
+OpenLiberty
+
+- ./buildAndRun.bat
+- open http://localhost:9080/resources/sample
+- http://localhost:9080/openapi
+- http://localhost:9080/openapi/ui/
